@@ -1,24 +1,25 @@
 
-import { useState, useEffect } from "react";
-import { useSelector, useDispatch } from 'react-redux';
+/* eslint no-eval: 0 */
+import { useState } from "react";
+// import { useSelector, useDispatch } from 'react-redux';
 import {
   // decrement,
-  increment,
+  // increment,
   // incrementByAmount,
   // incrementAsync,
-  selectCount,
+  // selectCount,
 } from './features/counterSlice';
 import "./app.scss"
 
 function App() {
-  const count = useSelector(selectCount);
-  const dispatch = useDispatch();
+  // const count = useSelector(selectCount);
+  // const dispatch = useDispatch();
   const [number, setNumber] = useState('')
-  const [entry, setEntry] = useState([])
+  // const [entry, setEntry] = useState([])
 
-  useEffect(() => {
-    console.log(entry)
-  },[entry])
+  // useEffect(() => {
+  //   console.log(entry)
+  // },[entry])
   return (
     <div className="container">
       <div className="calc">
