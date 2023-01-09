@@ -66,5 +66,10 @@
   background-color: #b1f0e8;
   border-radius: 30px;
   font-size: 1rem;
+}
 
+@media only screen and (min-width: 600px) {
+  .container {
+    max-width: 400px;
+  }  
 }
